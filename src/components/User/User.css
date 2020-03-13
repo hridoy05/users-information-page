@@ -1,0 +1,14 @@
+.userContainer {
+    display: flex;
+}
+
+.employeeContainer {
+    width: 70%;
+    margin-left: 20px;
+    margin-right: 5px;
+    border-right: 1px solid lightslategrey;
+}
+
+.totalContainer {
+    padding-left: 50px;
+}
