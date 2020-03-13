@@ -7,6 +7,9 @@ import './Employee.css';
 const Employee = (props) => {
     const { name ,email,phone, img, yearlyIncome}=props.user;
     
+   
+
+    
     return (
         <div className="showEmployee">
             <div className="image">
@@ -17,7 +20,7 @@ const Employee = (props) => {
                 <p><b>email: </b>{email}</p>
                 <p><b>phonenumber: </b>{phone}</p>
                 <p><b>Yearly-Income: </b>{yearlyIncome}</p>
-                <button onClick={()=> props.addClient(props.user)} className="addBtn"><FontAwesomeIcon icon={faUser} /> Add Client</button>
+                <button onClick={props.addClient} className="addBtn"><FontAwesomeIcon icon={faUser} /> Add Client</button>
              </div>
              
         </div>
